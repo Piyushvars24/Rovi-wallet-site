@@ -1,9 +1,9 @@
 @font-face {
     font-family: "Futura";
-    src: url(./futura/futura/Futura\ Bold.ttf) ;
+    src: url(Futura Bold.ttf) ;
 
     font-family: "Euclid Font";
-    src: url(/euclid-circular-b-cufonfonts/Euclid\ Circular\ B\ Bold.ttf) format('woff2');
+    src: url(Euclid Circular B Bold.ttf) format('woff2');
 
 }
 * {

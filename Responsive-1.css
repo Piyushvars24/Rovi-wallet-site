@@ -1,0 +1,383 @@
+/* Header */
+
+@media (max-width:960px)
+{
+    .left-header-panel
+    {
+        width:50%;
+        padding: 0 0 0 2rem;
+    }
+    .right-header-panel
+    {
+        width: 50%;
+    }
+    .header-nav ul li
+    {
+        display: none;
+    }
+    .top-header-panel
+    {
+        padding: 1rem;
+    }
+    .right-header-panel span
+    {
+        display: inline-block;
+    }
+    .login-btn button
+    {
+        min-width: 6.39rem;
+        height: 3rem;
+        margin:0 1.5rem 0 1rem ;
+    }
+}
+
+@media (max-width:768px)
+{
+    .left-header-panel a img {
+        width: 48px;
+    }
+    .login-btn button {
+        min-width: 5.7rem;
+        height: 2.8rem;
+        font-size: 16px;
+    }    
+}
+
+
+@media (max-width:480px)
+{
+    .left-header-panel
+    {
+        padding: 0 0 0 1rem;
+    }
+    .left-header-panel a img {
+        width: 40px;
+    }
+    .left-header-panel a span {
+        font-size: 1.1rem;
+    }
+    .login-btn button {
+        min-width: 4.7rem;
+        height: 2.3rem;
+        font-size: 15px;
+        margin: 0 0.5rem 0 1rem;
+    }
+    .right-header-panel span {
+        font-size: 1.9rem;
+        margin-left: .5rem;
+    }
+}
+@media (max-width:425px)
+{
+    .left-header-panel {
+        padding: 0px;
+    }
+    
+    .left-header-panel a span
+    {
+            padding: 0 0 0 .3rem;
+    }
+    .login-btn button
+    {
+        min-width: 5.39rem;
+        height: 2.5rem;
+        font-size: 16px;
+    }
+    .right-header-panel span
+    {
+        font-size: 2rem;
+        margin-right: 0rem;
+    }
+    
+
+}
+
+
+/* Section - 1 */
+
+@media(max-width:1250px)
+{
+    .buy-sell-left
+    {
+        font-size: 12.99px;
+    }
+    .buy-sell-left h1
+    {
+        line-height: 4.814rem;
+    }
+    .buy-sell-left p
+    {
+        line-height: 2.3rem;
+    }
+    .buy-sell-left button {
+        width: 13.2rem;
+        height: 4.375rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width:1024px)
+{
+    .buy-sell-left
+    {
+        font-size: 11.3px;
+    }
+    .buy-sell-left h1
+    {
+        line-height: 3.7rem;
+    }
+    .buy-sell-left p
+    {
+        line-height: 2rem;
+    }
+    .buy-sell-left button {
+        width: 11rem;
+        height: 4rem;
+        font-size: 1.4rem;
+    }
+}
+
+@media(max-width:900px)
+{
+    .buy-sell-left
+    {
+        font-size: 9.54px;
+    }
+    .buy-sell-left h1
+    {
+        line-height: 2.814rem;
+    }
+    .buy-sell-left p
+    {
+        line-height: 1.7rem;
+    }
+    .buy-sell-left button {
+        width: 10rem;
+        height: 3.4rem;
+        font-size: 1.26rem;
+    }
+}
+
+@media(max-width:768px)
+{
+    .buy-sell-left
+    {
+        font-size: 7.29px;
+    }
+    .buy-sell-left h1
+    {
+        line-height: 2.2rem;
+    }
+    .buy-sell-left p
+    {
+        line-height: 1.3rem;
+    }
+    .buy-sell-left button {
+        width: 7.5rem;
+        height: 2.8rem;
+        font-size: 1.1rem;
+        margin-top: 2rem;
+    }
+}
+
+
+@media(max-width:600px)
+{
+    .crypto-wallet {
+        padding: 7.5rem 0rem 1rem 3rem;
+    }    
+    .buy-sell-left
+    {
+        font-size: 5.08px;
+    }
+    .buy-sell-left h1
+    {
+        line-height: 1.6rem;
+    }
+    .buy-sell-left p
+    {
+        line-height: 1rem;
+    }
+    .buy-sell-left button {
+        width: 5rem;
+        height: 2rem;
+        font-size: .75rem;
+        margin-top: 1rem;
+    }
+}
+
+@media(max-width:480px)
+{
+    .crypto-wallet
+    {
+        flex-direction: column-reverse;
+        padding: 6rem 0rem 0rem 0rem
+    }
+    .buy-sell-right
+    {
+        min-width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    .buy-sell-right img
+    {
+        left: 30%;
+    }
+    .circle-1
+    {
+        left: 56%;
+    }
+    .circle{
+        left: 13%;
+    }
+
+    .buy-sell-left
+    {
+        min-width: 100%;
+        text-align: center;
+        font-size: 8.31px;
+        padding: 0 0 1rem 0;
+    }
+    .buy-sell-left h1
+    {
+        line-height: 2.45rem;
+    }
+    .buy-sell-left p
+    {
+        line-height: 1.5rem;
+    }
+    .buy-sell-left button {
+        width: 8rem;
+        height: 3rem;
+        font-size: 1.1rem;
+    }
+}
+
+
+
+/* Global-sec section */
+
+@media (max-width:1260px)
+{
+    .globally-pay 
+    {
+        font-size: 12.62px;
+    }
+    .globally-bkl h2 {
+        line-height: 3.2rem;
+    }
+    .globally-bkl #providers {
+        line-height: 4.75rem;
+    }
+    .globally-bkl #providers-1 {
+        line-height: 3.2rem;
+    }
+}
+
+
+@media (max-width:1024px)
+{
+    .globally-pay 
+    {
+        font-size: 10.87px;
+    }
+    .globally-bkl h2 {
+        line-height: 2.8rem;
+    }
+    .globally-bkl #providers {
+        line-height: 3.75rem;
+    }
+    .globally-bkl #providers-1 {
+        line-height: 2.8rem;
+    }
+}
+
+
+@media (max-width:900px)
+{
+    .globally-pay 
+    {
+        font-size: 9px;
+    }
+    .globally-bkl h2 {
+        line-height: 2.1rem;
+    }
+    .globally-bkl #providers {
+        line-height: 3rem;
+    }
+    .globally-bkl #providers-1 {
+        line-height: 2.1rem;
+    }
+}
+
+
+@media (max-width:768px)
+{
+    .globally-pay 
+    {
+        font-size: 6.5px;
+        padding: 0 0 0 3rem;
+    }
+    .globally-bkl h2 {
+        line-height: 1.7rem;
+    }
+    .globally-bkl #providers {
+        line-height: 2.5rem;
+    }
+    .globally-bkl #providers-1 {
+        line-height: 1.7rem;
+    }
+}
+
+@media (max-width:600px)
+{
+    .globally-pay 
+    {
+        font-size: 4.6px;
+        padding: 0 0 0 2rem;
+    }
+    .globally-bkl h2 {
+        line-height: 1.1rem;
+    }
+    .globally-bkl #providers {
+        line-height: 1.5rem;
+    }
+    .globally-bkl #providers-1 {
+        line-height: 1.1rem;
+    }
+}
+
+
+@media (max-width:480px)
+{
+    .globally-bkl
+    {
+        width: 90%;
+        flex-direction: column-reverse;
+    }
+    
+    .banner-img
+    {
+        width: 100%;
+    }
+    .banner-img img {
+        padding: 0 1rem;
+    }
+
+    .globally-pay
+    {
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+        padding-top: 2rem;
+        font-size: 8.9px;
+    }
+    .globally-bkl h2 {
+        line-height: 3.1rem;
+    }
+    .globally-bkl #providers {
+        line-height: 3.5rem;
+    }
+    .globally-bkl #providers-1 {
+        line-height: 2.1rem;
+    }   
+}

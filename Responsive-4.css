@@ -1,0 +1,522 @@
+@media (max-width:1320px)
+{
+    .subscribe h4 {
+        font-size: 3rem;
+        line-height: 55px;
+    }
+    .subscribe p {
+        font-size: 1.13rem;
+        line-height: 25px;
+    }
+    .subscribe span button {
+        font-size: 21px;
+        padding: 0 2.1rem;
+    }
+}
+
+
+@media (max-width:1190px)
+{
+    .subscribe h4 {
+        font-size: 2.8rem;
+        line-height: 55px;
+    }
+    .subscribe p {
+        font-size: 1.02rem;
+        line-height: 25px;
+    }
+    .subscribe span input {
+        font-size: 1.1rem;
+        padding: 1.1rem 0;
+        padding-left: 1rem;
+    }
+    .subscribe span button {
+        font-size: 19px;
+        padding: 0 2rem;
+    }
+}
+
+@media (max-width:1024px)
+{
+    .selling-token {
+        padding: 4rem 0 0 0;
+    }
+    .subscribe h4 {
+        font-size: 2.5rem;
+        line-height: 55px;
+    }
+    .subscribe p {
+        font-size: .899rem;
+        line-height: 23px;
+    }
+    .subscribe span input {
+        font-size: 1rem;
+        padding: 1.1rem 0;
+        padding-left: 1rem;
+    }
+    .subscribe span {
+        margin: 1.7rem 0;
+    }
+    .subscribe span button {
+        font-size: 17px;
+        padding: 0 1.5rem;
+    }
+    .subscribe span input {
+        font-size: .9rem;
+        padding: 1rem 0;
+        padding-left: 1rem;
+    }
+}
+
+@media (max-width:850px)
+{
+    .subscribe h4 {
+        font-size: 2.1rem;
+        line-height: 55px;
+    }
+    .subscribe p {
+        font-size: .73rem;
+        line-height: 20px;
+    }
+    .subscribe span button {
+        font-size: 16px;
+        padding: 0 1.2rem;
+    }
+    .subscribe span input {
+        font-size: .8rem;
+        padding: .9rem 0;
+        padding-left: 1rem;
+    }
+}
+
+@media (max-width:768px)
+{
+    .subscribe h4 {
+        font-size: 1.9rem;
+        line-height: 50px;
+    }
+    .subscribe p {
+        font-size: .67rem;
+        line-height: 14px;
+    }
+    .subscribe span {
+        margin: 1.55rem 0;
+    }
+    .subscribe span button {
+        font-size: 13px;
+        padding: 0 .9rem;
+    }
+    .selling-token {
+        padding: 3rem 0 0 0;
+        margin: 1rem auto;
+    }
+
+}
+
+
+@media (max-width:630px)
+{
+    .subscribe h4 {
+        font-size: 1.45rem;
+        line-height: 41px;
+    }
+    .subscribe p {
+        font-size: .54rem;
+        line-height: 13px;
+    }
+    .subscribe span button {
+        font-size: 11px;
+        padding: 0 .75rem;
+    }
+    .subscribe span input {
+        font-size: .6rem;
+        padding: .75rem 0;
+        padding-left: 1rem;
+    }
+    .subscribe span {
+        margin: 1.4rem 0;
+    }
+}
+
+
+@media (max-width:480px)
+{
+    .selling-token
+    {
+        flex-direction: column;
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+    .sell-token-img
+    {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    
+    .sell-token-img img
+    {
+        max-width: 80%;
+    height: auto;
+    margin: 0 11%;
+    }
+
+
+
+    .subscribe
+    {
+        width: 100%;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .subscribe h4
+    {
+        font-size: 26px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .subscribe p {
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .subscribe span {
+       padding: 0 1rem;
+    }
+}
+
+
+
+
+/* Social Section */
+
+@media (max-width:1240px) {
+    .ravi-wallet p {
+        font-size: 13px;
+        line-height: 19px;
+        margin-top: 27px;
+    }
+
+    .learn #learn-btl {
+        font-size: 22px;
+    }
+
+    .learn ul li {
+        font-size: 18px;
+    }
+
+    .privacy #privacy-btl {
+        font-size: 22px;
+    }
+
+    .privacy ul li {
+        font-size: 18px;
+    }
+
+    #follow-us-btl {
+        font-size: 22px;
+    }
+}
+
+
+@media (max-width:1024px) {
+    .ravi-wallet h1 a img {
+        max-width: 46px;
+    }
+
+    .ravi-wallet p {
+        font-size: 11px;
+        line-height: 17px;
+        margin-top: 19px;
+    }
+
+    .learn #learn-btl {
+        font-size: 20px;
+    }
+
+    .learn ul {
+        line-height: 2.5rem;
+    }
+
+    .learn ul li {
+        font-size: 16px;
+    }
+
+    .privacy #privacy-btl {
+        font-size: 20px;
+    }
+
+    .privacy ul li {
+        font-size: 16px;
+    }
+
+    .privacy ul {
+        line-height: 2.5rem;
+    }
+
+    #follow-us-btl {
+        font-size: 20px;
+    }
+
+    /* .data-one
+    {
+        width: 45px;
+        height: 45px;
+    } */
+    .following-data li {
+        font-size: 31px;
+        width: 45px;
+        height: 45px;
+    }
+}
+
+
+
+@media (max-width:850px) {
+    .ravi-wallet h1 a img {
+        max-width: 40px;
+    }
+
+    .ravi-wallet h1 span {
+        padding: 0 0 0 .6rem;
+        font-size: 1.2rem;
+    }
+
+    .ravi-wallet p {
+        font-size: 9px;
+        line-height: 16px;
+    }
+
+    .learn #learn-btl {
+        font-size: 18px;
+    }
+
+    .learn ul {
+        line-height: 2.33rem;
+    }
+
+    .learn ul li {
+        font-size: 14px;
+    }
+
+    .privacy #privacy-btl {
+        font-size: 18px;
+    }
+
+    .privacy ul li {
+        font-size: 14px;
+    }
+
+    .privacy ul {
+        line-height: 2.33rem;
+    }
+
+    #follow-us-btl {
+        font-size: 18px;
+    }
+
+    .following-data li {
+        font-size: 27px;
+        width: 40px;
+        height: 40px;
+        line-height: 3.2rem;
+    }
+
+    .following-data li i {
+        bottom: 10px;
+    }
+
+}
+
+
+
+@media (max-width:768px) {
+    .ravi-wallet h1 a img {
+        max-width: 35px;
+    }
+
+    .ravi-wallet h1 span {
+        padding: 0 0 0 .6rem;
+        font-size: 1rem;
+    }
+
+    .ravi-wallet p {
+        font-size: 7.5px;
+        line-height: 14px;
+    }
+
+    .learn #learn-btl {
+        font-size: 16px;
+    }
+
+    .learn ul {
+        line-height: 2.1rem;
+    }
+
+    .learn ul li {
+        font-size: 12px;
+    }
+
+    .privacy #privacy-btl {
+        font-size: 16px;
+    }
+
+    .privacy ul li {
+        font-size: 12px;
+    }
+
+    .privacy ul {
+        line-height: 2.1rem;
+    }
+
+    #follow-us-btl {
+        font-size: 16px;
+        line-height: 3rem;
+    }
+
+    .following-data li {
+        font-size: 23px;
+        width: 35px;
+        height: 35px;
+        line-height: 3rem;
+    }
+
+    .following-data li i {
+        left: 7px;
+        bottom: 12px;
+    }
+}
+
+
+@media (max-width:650px) {
+    .ravi-wallet h1 a img {
+        max-width: 32px;
+    }
+
+    .ravi-wallet h1 span {
+        padding: 0 0 0 .6rem;
+        font-size: .9rem;
+    }
+
+    .ravi-wallet p {
+        font-size: 6.5px;
+        line-height: 12px;
+        margin-top: 12px;
+    }
+
+    .learn #learn-btl {
+        font-size: 14px;
+    }
+
+    .learn ul {
+        line-height: 1.7rem;
+    }
+
+    .learn ul li {
+        font-size: 10px;
+    }
+
+    .privacy #privacy-btl {
+        font-size: 14px;
+    }
+
+    .privacy ul li {
+        font-size: 10px;
+    }
+
+    .privacy ul {
+        line-height: 1.7rem;
+    }
+
+    #follow-us-btl {
+        font-size: 14px;
+
+    }
+
+    .following-data li {
+        width: 26px;
+        height: 26px;
+        font-size: 17px;
+    }
+
+    .following-data li i {
+        bottom: 17px;
+        left: 5px;
+    }
+
+}
+
+
+@media (max-width:480px) {
+    .ravi-data {
+        flex-wrap: wrap;
+    }
+
+    .ravi-wallet {
+        flex: 0 0 50%;
+    }
+
+    .ltk-btk {
+        flex: 0 0 50%;
+    }
+
+    .ravi-wallet p {
+        font-size: 8.3px;
+        line-height: 12px;
+        margin-top: 39px;
+    }
+
+    .learn ul li {
+        padding-top: .6rem;
+    }
+
+    .privacy ul li {
+        padding-top: .6rem;
+    }
+}
+
+@media (max-width:360px)
+{
+    .ravi-wallet {
+        flex: 0 0 100%;
+    }
+    .ltk-btk {
+        flex: 0 0 100%;
+    }
+    .ravi-wallet h1 a {
+        margin: 6px 68px;
+    }
+    .ravi-wallet p {
+        font-size: 11.3px;
+        line-height: 12px;
+        margin-top: 22px;
+        text-align: center;
+    }
+    .learn #learn-btl {
+        font-size: 23px;
+    }
+    .learn ul li {
+        font-size: 15px;
+    }
+    .privacy #privacy-btl {
+        font-size: 20px;
+    }
+    .privacy ul li {
+        font-size: 14px;
+    }
+    #follow-us-btl {
+        font-size: 18px;
+    }
+    .following-data li {
+        width: 45px;
+        height: 45px;
+        font-size: 36px;
+    }
+    .follow-us ul li img{
+        margin: 28px auto;
+    }
+    .following-data li i
+    {
+        bottom:9px ;
+    }
+}

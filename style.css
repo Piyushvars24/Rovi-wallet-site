@@ -1,0 +1,981 @@
+@font-face {
+    font-family: "Futura";
+    src: url(./futura/futura/Futura\ Bold.ttf) ;
+
+    font-family: "Euclid Font";
+    src: url(/euclid-circular-b-cufonfonts/Euclid\ Circular\ B\ Bold.ttf) format('woff2');
+
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    font-family: "Rubik", sans-serif;
+}
+
+.responsive_design {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+/* Header */
+
+
+.navbar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(109.87deg, #F6EDD6 7.19%, #E2E8DF 59.3%, rgba(217, 217, 217, 0) 101.49%, #D5E4E4 101.49%);
+    z-index: 99;
+
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.top-header-panel {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+} 
+
+/* Navbar left part */
+
+.left-header-panel {
+    width: 30%;
+    padding-left: 3.5rem;
+}
+
+.left-header-panel a 
+{
+    display: flex;
+    width: auto;
+    align-items: center;
+    text-decoration: none;
+}
+
+.left-header-panel a img 
+{
+    max-width: 100%;
+}
+
+.left-header-panel a span {
+    padding: 0 0 0 .75rem;
+    font-size: 1.375rem;
+    color: black;
+    font-weight: 600;
+}
+
+
+
+
+/* Navbar Right Part */
+
+.right-header-panel {
+    width: 75%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-nav {
+    width: 100%;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.header-nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-nav ul li {
+    width: auto;
+    display: flex;
+    font-size: 1.4rem;
+
+    padding: 0 1.5rem;
+    align-items: center;
+}
+
+.header-nav ul li a {
+    display: inline-block;
+    padding: 2rem 0rem;
+    color: black;
+    text-decoration: none;
+    position: relative;
+
+}
+
+.login-btn {
+    width: auto;
+    position: relative;
+}
+
+.login-btn button {
+    min-width: 7.1875rem;
+    height: 3.375rem;
+    padding: 0 1.3rem;
+    border-radius: .5rem;
+    margin: 0 3rem 0 1rem;
+    border: none;
+    background-color: rgba(218, 167, 29, 1);
+    color: white;
+    font-size: large;
+}
+
+.right-header-panel span {
+    font-size: 2.3rem;
+    margin-right: 1.3rem;
+    display: none;
+} 
+
+.home-list a::after 
+{
+    content: " ";
+    position: absolute;
+    background-color: rgba(218, 167, 29, 1);
+    height: 3px;
+    width: 100%;
+    left: 0;
+    bottom: 0px;
+}
+
+
+
+/* Section - 1 */
+
+
+
+.crypto-sec {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(109.87deg, #F6EDD6 7.19%, #E2E8DF 59.3%, rgba(217, 217, 217, 0) 101.49%, #D5E4E4 101.49%);
+
+}
+
+.crypto-wallet {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 7.5rem 0rem 1rem 3.5rem;
+    margin-bottom: 3rem;
+}
+
+.buy-sell-left {
+    min-width: 45%;
+    width: 100%;
+    font-size: 16px;
+}
+
+.buy-sell-left h1 {
+    font-family: "Futura";
+    width: 100%;
+    font-size: 4.375em;
+    line-height: 5.814rem;
+    color: rgba(218, 167, 29, 1);
+}
+
+.buy-sell-left p 
+{
+    width: 100%;
+    font-size: 1.875em;
+    line-height: 2.5rem;
+
+}
+
+.buy-sell-left button {
+
+
+    font-family: "Rubik",sans-serif;
+    width: 15.875rem;
+    height: 4.875rem;
+    border-radius: 3.46rem;
+    font-size: 1.875em;
+    color: white;
+    margin-top: 3.125rem;
+    background: rgba(218, 167, 29, 1);
+    border: none;
+}
+
+
+.buy-sell-right {
+    min-width: 55%;
+    /* width: 100%; */
+    height: auto;
+    position: relative;
+}
+
+.buy-sell-right img
+{
+   position: relative;
+   max-width: 100%;
+   width: 35%;
+   height: auto;
+   left: 43%;  
+}
+
+.circle
+{
+    position: absolute;
+    width: 9.5%;
+    padding-top: 9.5%;
+    border-radius: 50%;
+    top: 8%;
+    left: 22%;
+    background: rgba(218, 167, 29, 1);
+}
+
+.circle-1
+{
+    position: absolute;
+    width: 52.5%;
+    padding-top: 52.5%;
+    background: rgba(218, 167, 29, 1);
+    border-radius: 50%;
+    top: 39%;
+    left: 68%;
+}
+
+/* .ellipse-eth
+{
+    position: absolute;
+    width: 7.3%;
+    padding-top: 3%;
+    border-radius: 0 46px 52.5px 52.5px;
+    border: .1px solid red;
+    background-color: #fff;
+    top: 10%;
+    left: 10%;
+} */
+
+
+
+/* Global-sec Section */
+
+.global-sec 
+{
+    width: 100%;
+    position: relative;
+}
+
+
+.globally-bkl
+{
+    width: 92%;
+    max-width: 100%;
+    position: relative;
+    top: -40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius :20px;
+    background-color: white;
+    box-shadow: 0px 10px 10px 6px rgba(219, 219, 219, 0.3);
+}
+
+
+.globally-pay {
+    width: 50%;
+    padding: 0 0 0 4rem;
+    font-size: 16px;
+}
+
+.globally-bkl h2 {
+    font-family: "Euclid Font";
+    width: 100%;
+    font-size: 2.5em;
+    font-weight: 600;
+    line-height: 3.75rem;
+    color: rgba(71, 71, 71, 1);
+}
+
+.globally-bkl #providers {
+    font-family: "Big Shoulders Inline Display", sans-serif;
+    font-size: 4.375em;
+    font-weight: 900;
+    line-height: 6.75rem;
+    color: rgba(218, 167, 29, 1);
+}
+
+.globally-bkl #providers-1 {
+    font-family: "Euclid Font";
+    width: 100%;
+    font-size: 2.5em;
+    font-weight: 600;
+    line-height: 3.75rem;
+    color: rgba(71, 71, 71, 1);
+
+}
+
+
+.banner-img
+{
+    width: 40%;
+}
+
+.banner-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* Ravi - Blocks section */
+
+
+.rovi-block {
+    width: 100%;
+    position: relative;
+}
+
+.blocks {
+    width: 92%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 4rem auto;
+}
+
+
+.rovi-refferal
+{
+    flex: 0 0 600px;
+    padding: 4rem 4rem 5rem 4rem;
+    background-color: rgba(246, 241, 214, 1);
+    border-radius: 20px;
+}
+
+.rovi-refferal h4
+{
+        font-family: 'Euclid Font';
+        font-weight: 600;
+        font-size: 2rem;
+        line-height: 2.5rem;
+        color: rgba(218, 167, 29, 1);
+}
+.rovi-refferal p
+{
+    font-weight: 400;
+    font-size: 1.375rem;
+    line-height: 1.875rem;
+    color: rgba(71, 71, 71, 1);
+    margin: 1rem 0;
+}
+.rovi-refferal pre
+{
+    font-family: 'Euclid Font';
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    color: rgba(71, 71, 71, 1);
+    
+}
+
+
+#Gift-box
+{
+    width: 155px;
+    position: relative;
+    border-radius: 20px;
+    left: 21rem;
+    top: 2rem;
+}
+
+#Contact-img
+{
+    width: 71px;
+    position: relative;
+    top:  4rem;
+    left: 8.5rem;
+}
+
+#get-dis
+{
+    width: 120px;
+    position: relative;
+    left: 15rem;
+    top: 4.5rem;
+}
+
+#no-caps
+{
+    width: 80px;
+    position: relative;
+    left: 13rem;
+    top: -0.5rem;
+}
+
+#rovi-coin-btk
+{
+    width: 37px;
+    position: relative;
+    top: 2.5rem;
+    left: 10rem;
+}
+
+
+
+/* Cash Crypto */
+
+.cash-crypto {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.wallet-cash {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 9rem 0 9rem 0;
+    background-color: white;
+}
+
+.simple-sol {
+    width: 43%;
+    padding: 0 0 0 2rem;
+}
+
+
+.simple-sol h4
+{
+    font-family: "Euclid Font";
+    font-size: 3.125rem;
+    font-weight: 600;
+    line-height: 60px;
+
+}
+
+.simple-sol p
+{
+    font-size: 1.325rem;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 1rem 0;
+}
+
+.simple-sol button
+{
+    font-family: "Rubik",sans-serif;
+    width: 11.0625rem;
+    height: 3.397rem;
+    border-radius: 55.5px;
+    border: 1px solid rgba(218, 167, 29, 1);
+    font-weight: 500;
+    font-size: 1.375rem;
+    background-color: white;
+    color: rgba(218, 167, 29, 1);
+    margin-top: 2.375rem;
+}
+
+
+
+
+.main-network {
+    width: 50%;
+    position: relative;
+} 
+
+.main-network img 
+{
+    max-width: 49%;
+}
+
+
+#main-network-first
+{
+    position: relative;
+    left: 3rem;
+    top: -2rem;
+    z-index: 7;
+}
+#main-network-second
+{
+    position: relative;
+    top: 5rem;
+    z-index: 4;
+    left: -6rem;
+    rotate: 4deg;
+}
+
+
+.navcoin-1
+{
+    width:14.5%;
+    padding-top: 14.5%;
+    border-radius: 50%;
+    background-color: rgba(218, 167, 29, 1);
+    position: absolute;
+    left: 8%;
+    top: -9%;
+}
+
+.navcoin-2
+{
+    width:41%;
+    padding-top: 41%;
+    border-radius: 50%;
+    background-color: rgba(218, 167, 29, 1);
+    position: absolute;
+    top: 46%;
+    left: 69%;
+}
+
+
+
+/* Invest-Platform Section */
+
+.invest-paltform
+{
+    width: 100%;
+    position: relative;
+}
+.investor
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 2rem; */
+}
+
+.invest-asset h2 {
+    width: 100%;
+    font-family: "Euclid Fonts";
+    font-size: 3.125rem;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 6.25rem;
+    color: black;
+}
+
+.rovi-asset-img
+{
+    width: 96%;
+    max-width: 100%;
+    margin-bottom: 3rem;
+}
+
+.asset-list
+{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.asset-list li
+{
+    flex: 0 0 25%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.asset-list li img
+{
+    width: 100%;
+    display: block;
+}
+
+
+/* ravi-graphic */
+
+#ravi-graphic
+{
+  width: 100%;
+  position: relative;
+  background-color: rgba(18, 5, 60, 1);
+}
+
+.graphics-pay
+{
+    width: 96%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.graphic-design
+{
+    max-width: 45%;
+    width: 100%;
+    /* padding-left: 12px; */
+    color: white;
+}
+
+
+
+.graphic-design h3 {
+    font-family: "Euclid Fonts";
+    font-size: 3.125rem;
+    font-weight: 600;
+    line-height: 60px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.graphic-design p
+{
+
+    font-size: 1.37rem;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 15px 0;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.graphic-design span {
+    font-family: "Euclid Fonts";
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 40px;
+    color: white;
+
+}
+
+
+.payment-success
+{
+    max-width: 45%;
+    width: 100%;
+    height: auto;
+}
+
+.payment-success img
+{
+    width: 60%;
+    position: relative;
+    bottom: -24px;
+    left: 35%;
+}
+.token-coin-1 img
+{
+    position: absolute;
+    top: 11%;
+    width: 6%;
+    height: auto;
+    left: 55%;
+}
+
+.token-coin-2 img
+{
+    position: absolute;
+    top: 49%;
+    width: 3%;
+    height: auto;
+    left: 94%
+}
+
+.token-coin-3
+{
+    position: absolute;
+    top: -9%;
+    right: -10%;
+    transform: translate(-50%, -50%);
+    width: 14%;
+    padding-top: 7%;
+    border-radius: 150px 150px 0 0;
+    background-color: rgba(218, 167, 29, 1);
+    rotate: 270deg;
+} 
+
+/* Rovi-sell section */
+
+
+
+.rovi-sell
+{
+    width: 100%;
+    position: relative;
+}
+
+.selling-token
+{
+    width: 96%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem auto;
+    padding: 5rem 0 0 0;
+}
+
+.sell-token-img
+{
+    max-width:40%;
+}
+
+.sell-token-img img
+{
+    width: 100%;
+    height: auto;
+}
+
+.subscribe
+{
+    width: 54%;
+}
+
+.subscribe h4
+{
+    font-family: "Euclid Fonts";
+    width: 100%;
+    font-size: 3.125rem;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.subscribe p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(71, 71, 71, 1);
+}
+
+.subscribe span 
+{
+    display: flex;
+    width: 100%;
+    border-radius: 5px;
+    margin: 2rem 0;
+}
+
+.subscribe span input {
+    width: 100%;
+    font-size: 1.2rem;
+    border: none;
+    box-shadow: -12px 12px 10px 0px rgba(0, 0, 0, 0.269);
+    padding: 1.3rem 0;
+    padding-left: 1rem;
+}
+
+.subscribe span button {
+    max-width: 100%;
+    background-color: rgba(218, 167, 29, 1);
+    border: none;
+    color: white;
+    font-size: 23px;
+    padding: 0 2.3rem;
+}
+
+
+
+
+/* Social-Media */
+
+#social-media
+{
+    width: 100%;
+    position: relative;
+}
+
+.ravi-data
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-top: 30px;
+}
+
+/* Part-1 */
+
+.ravi-wallet {
+    flex: 0 0 30%;
+}
+
+.ravi-wallet h1 
+{
+    max-width: 100%;    
+    display: inline-block;
+}
+
+.ravi-wallet h1 a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 0 0 .5rem;
+}
+
+.ravi-wallet h1 a img
+{
+   max-width: 100%;
+    height: auto;
+}
+
+.ravi-wallet h1 span {
+    padding: 0 0 0 .75rem;
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.ravi-wallet p {
+    font-family: "Rubik", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+    margin-top: 31px;
+    color: rgba(71, 71, 71, 1);
+}
+
+
+/* Part-2 */
+
+.ltk-btk
+{
+    flex: 0 0 22%;
+}
+.learn ul {
+    list-style: none;
+    line-height: 3rem;
+}
+
+.learn #learn-btl {
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+
+    text-align: center;
+    color: rgba(218, 167, 29, 1);
+}
+
+.learn ul li {
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(71, 71, 71, 1);
+}
+
+/* Part - 3 */
+
+.privacy ul {
+    list-style: none;
+    line-height: 3rem;
+}
+
+.privacy #privacy-btl {
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    color: rgba(218, 167, 29, 1);
+}
+
+.privacy ul li {
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(71, 71, 71, 1);
+}
+
+
+
+/* Part - 4  */
+
+
+
+.follow-us ul
+{
+    list-style: none;
+}
+
+#follow-us-btl
+{
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    color: rgba(218, 167, 29, 1);
+}
+.follow-us ul li
+{
+  line-height: 4rem;
+}
+
+
+
+.following-data
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.following-data li 
+{
+   font-size: 35px;
+   margin-right: .5rem;
+}
+
+.following-data li i
+{
+    position: relative;
+    left: 9px;
+    bottom: 5px;
+}
+.data-one
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(40, 103, 178, 1);
+    color:white
+}
+
+
+.follow-us ul li img
+{
+    width: 52%;
+    height: auto;
+    /* margin-top: 1.7rem; */
+    background-color: black;
+    margin: 22px auto;
+    display: flex;
+    padding: 0 0rem;
+    align-items: center;
+    border-radius: 7px;
+
+}
+
+.copy-right
+{
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem 0rem;
+    background-color: rgba(255, 227, 184, 1);
+}
+

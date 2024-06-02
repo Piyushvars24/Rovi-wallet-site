@@ -1,0 +1,263 @@
+/* Invest-section media Query */
+
+
+@media (max-width:1024px) {
+    .invest-asset h2 {
+        padding-bottom: 5.25rem;
+        font-size: 3rem;
+    }
+}
+
+@media (max-width:768px) {
+    .invest-asset h2 {
+        padding-bottom: 4rem;
+        font-size: 2.5rem;
+        line-height: 55px;
+    }
+
+}
+
+@media (max-width:600px) {
+    .invest-asset h2 {
+        padding-bottom: 3rem;
+        font-size: 2.1rem;
+        line-height: 45px;
+    }
+}
+
+@media (max-width: 480px) {
+    .asset-list li {
+        flex: 0 1 50%;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 360px) {
+    .asset-list li {
+        flex: 0 1 100%;
+        padding: 10px 20px;
+    }
+}
+
+
+@media (max-width:425px) {
+    .invest-asset h2 {
+        padding-bottom: 2rem;
+        font-size: 1.85rem;
+        line-height: 40px;
+    }
+}
+
+
+
+
+/* ravi graphics media query */
+
+@media (max-width:1230px) {
+    .graphic-design p {
+        font-size: 1.14rem;
+        font-weight: 400;
+        line-height: 26px;
+        padding: 14px 0;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .token-coin-1 img {
+        top: 15%;
+    }
+
+    .token-coin-2 img {
+        top: 50%;
+    }
+}
+
+
+@media (max-width:1024px) {
+    .graphic-design h3 {
+        font-size: 3rem;
+        line-height: 50px;
+    }
+
+    .graphic-design p {
+        font-size: 1rem;
+        line-height: 20px;
+        padding: 13px 0;
+    }
+
+    .graphic-design span {
+        font-size: 1.1rem;
+        line-height: 35px;
+    }
+
+    .token-coin-1 img {
+        top: 18%;
+    }
+
+    .token-coin-2 img {
+        top: 51%;
+    }
+}
+
+
+
+@media (max-width:900px) {
+    .graphic-design h3 {
+        font-size: 2.59rem;
+        line-height: 45px;
+    }
+
+    .graphic-design p {
+        font-size: .853rem;
+        line-height: 17px;
+        padding: 11px 0;
+    }
+
+    .graphic-design span {
+        font-size: 1rem;
+        line-height: 30px;
+    }
+
+    .token-coin-1 img {
+        top: 20%;
+    }
+
+    .token-coin-2 img {
+        top: 52%;
+    }
+}
+
+@media (max-width:768px) {
+    .graphic-design h3 {
+        font-size: 2.1rem;
+        line-height: 40px;
+    }
+
+    .graphic-design p {
+        font-size: .693rem;
+        line-height: 15px;
+        padding: 7px 0;
+    }
+
+    .graphic-design span {
+        font-size: .9rem;
+        line-height: 25px;
+    }
+
+    .token-coin-1 img {
+        top: 23%;
+    }
+
+    .token-coin-2 img {
+        top: 53%;
+    }
+}
+
+
+@media (max-width:625px) {
+    .graphic-design h3 {
+        font-size: 1.61rem;
+        line-height: 30px;
+    }
+
+    .graphic-design p {
+        font-size: .53rem;
+        line-height: 11px;
+        padding: 5px 0;
+    }
+
+    .graphic-design span {
+        font-size: .7rem;
+        line-height: 20px;
+    }
+
+    .token-coin-1 img {
+        top: 26%;
+    }
+
+    .token-coin-2 img {
+        top: 55%;
+    }
+}
+
+@media (max-width:480px) {
+    .graphics-pay {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .graphic-design {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .payment-success {
+        max-width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .payment-success img {
+        width: 56%;
+        position: relative;
+        bottom: -24px;
+        left: 22%;
+    }
+
+    .graphic-design h3 {
+        text-align: center;
+        font-size: 2.5rem;
+        line-height: 37px;
+    }
+
+    .graphic-design p {
+        line-height: 22px;
+        text-align: center;
+        font-size: 1rem;
+        padding: 10px 0;
+    }
+    .graphic-design span {
+        font-size: 1.2rem;
+        line-height: 30px;
+    }
+    .token-coin-1 img {
+        position: absolute;
+        top: 13%;
+        width: 13%;
+        left: 1%;
+    }
+
+    .token-coin-2 img {
+        position: absolute;
+        top: 34%;
+        width: 8%;
+        left: 82%;
+    }
+
+    .token-coin-3 {
+        position: absolute;
+        width: 27%;
+        padding-top: 15%;
+        top: -5.2%;
+        left: 91%;
+    }
+}
+
+
+@media (max-width:400px)
+{
+    .graphic-design h3 {
+        font-size: 2rem;
+    }
+    .graphic-design p {
+        font-size: .8rem;
+    }
+    .graphic-design span {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:320px)
+{
+    .token-coin-2 img {
+        top: 31%;
+    }
+}

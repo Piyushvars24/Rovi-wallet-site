@@ -1,0 +1,503 @@
+@media (max-width:1310px) {
+    .rovi-refferal {
+        margin: 1rem auto;
+    }
+
+}
+
+@media (max-width:768px) {
+    .blocks
+    {
+        margin: 2rem auto;
+    }
+    .rovi-refferal {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    #Gift-box {
+        max-width: 100%;
+        width: 30%;
+        top: 4%;
+        left: 74%;
+    }
+
+    #Contact-img {
+        max-width: 100%;
+        width: 16%;
+        top: 14%;
+        left: 34%;
+    }
+
+    #get-dis {
+        max-width: 100%;
+        width: 29%;
+        top: 16%;
+        left: 49%;
+    }
+
+    #no-caps {
+        max-width: 100%;
+        width: 21%;
+        top: -10%;
+        left: 40%;
+
+    }
+
+    #rovi-coin-btk {
+        max-width: 100%;
+        width: 9%;
+        top: 4%;
+        left: 29%;
+    }
+}
+
+
+@media (max-width:630px) {
+    .blocks
+    {
+        margin: 0rem auto;
+    }
+    .rovi-refferal {
+        padding: 3rem 4rem 3rem 3rem;
+    }
+
+    .rovi-refferal h4 {
+        font-size: 1.7rem;
+    }
+
+    .rovi-refferal p {
+        font-size: 1.1rem;
+    }
+
+    .rovi-refferal pre {
+        font-size: 1rem;
+    }
+
+    #get-dis {
+        top: 11%;
+    }
+
+    #no-caps {
+        top: -11%;
+    }
+
+    #rovi-coin-btk {
+        top: 1%;
+        left: 28%;
+    }
+}
+
+
+@media (max-width:535px)
+{
+    .rovi-refferal h4 {
+        font-size: 1.5rem;
+    }
+    .rovi-refferal p {
+        font-size: .95rem;
+    }
+    .rovi-refferal pre {
+        font-size: .85rem;
+    }
+    #Contact-img {
+        top: 12%;
+    }
+    #get-dis {
+        top: 8%;
+    }
+    #no-caps {
+        top: -12%;
+    }
+    #rovi-coin-btk {
+        top: -1%;
+        left: 28%;
+    }
+}
+
+@media(max-width:460px)
+{
+    .rovi-refferal {
+        padding: 3rem 4rem 2rem 3rem;
+    }
+    #Gift-box {
+        top: 0%;
+    }
+    #Contact-img {
+        top: 9%;
+    }
+    .rovi-refferal h4 {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+    .rovi-refferal p {
+        font-size: .8rem;
+        line-height: 1.275rem;
+    }
+    .rovi-refferal pre {
+        font-size: .85rem;
+        line-height: 1.5rem;
+    }
+}
+
+
+@media(max-width:410px)
+{
+    .rovi-refferal {
+        padding: 3rem 3rem 2rem 2rem;
+    }
+    .rovi-refferal h4 {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .rovi-refferal p {
+        font-size: .74rem;
+        line-height: 1.175rem;
+    }
+    .rovi-refferal pre {
+        font-size: .75rem;
+        line-height: 1.4rem;
+    }
+}
+
+@media(max-width:370px)
+{
+    .rovi-refferal {
+        padding: 3rem 2rem 2rem 2rem;
+    }
+    .rovi-refferal h4 {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .rovi-refferal p {
+        font-size: .7rem;
+        line-height: 1.175rem;
+    }
+    .rovi-refferal pre {
+        font-size: .75rem;
+        line-height: 1.4rem;
+    }
+}
+
+
+
+
+/* Crypto Section */
+
+@media (max-width:1340px)
+{
+    #main-network-second 
+    {
+        left: -5rem;
+    }
+}
+@media (max-width:1310px)
+{
+    .wallet-cash
+    {
+        margin: 7rem 0 9rem 0;
+    }
+}
+@media (max-width:1250px)
+{
+    #main-network-second 
+    {
+        left: -4.5rem;
+        rotate: 5deg;
+        top: 4rem;    }
+}
+
+@media (max-width:1190px)
+{
+    .simple-sol h4
+    {
+      font-size: 2.90rem;
+      line-height: 55px;
+    }
+    .simple-sol p
+    {
+        font-size: 1.27rem;
+        line-height: 28px;
+    }
+    #main-network-second {
+        left: -4rem;
+    }
+}
+
+@media (max-width:1110px)
+{
+    .wallet-cash {
+        margin: 5rem 0 6rem 0;
+    }
+    .simple-sol h4 {
+        font-size: 2.45rem;
+        line-height: 50px;
+    }
+    #main-network-second {
+        left: -3.6rem;
+    }
+}
+
+@media (max-width:1000px)
+{
+    #main-network-second {
+        left: -3.4rem;
+        rotate: 2deg;
+        top: 2rem;
+    }
+    .navcoin-2 {
+        top: 39%;
+    }
+    .navcoin-1 {
+        left: 11%;
+        top: -10%;
+    }
+}
+
+
+@media (max-width:960px)
+{
+    .simple-sol h4 {
+        font-size: 2.1rem;
+        line-height: 46px;
+    }
+    .simple-sol p {
+        font-size: 1.15rem;
+        line-height: 26px;
+    }
+    .simple-sol button {
+        width: 10rem;
+        height: 3.05rem;
+        font-size: 1.2rem;
+    }
+    #main-network-second {
+        left: -2.95rem;
+    }
+    
+}
+
+
+
+@media (max-width:880px)
+{
+    .simple-sol h4 {
+        font-size: 1.9rem;
+        line-height: 40px;
+    }
+    .simple-sol p {
+        font-size: .99rem;
+        line-height: 22px;
+    }
+    .simple-sol button {
+        width: 9rem;
+        height: 2.9rem;
+        font-size: 1.1rem;
+        margin-top: 2.2rem;
+    }
+    #main-network-second {
+        left: -2.95rem;
+    }
+    .navcoin-1 {
+        left: 13%;
+        top: -12%;
+    }
+    #main-network-second {
+        left: -2.4rem;
+    }
+    
+}
+
+
+@media (max-width:786px)
+{
+    .wallet-cash {
+        margin: 5rem 0 5rem 0;
+    }
+    .simple-sol h4 {
+        font-size: 1.6rem;
+        line-height: 35px;
+    }
+    .simple-sol p {
+        font-size: .85rem;
+        line-height: 20px;
+        padding: .8rem 0;
+    }
+    .simple-sol button {
+        width: 8rem;
+        height: 2.6rem;
+        font-size: 1rem;
+    }
+    .navcoin-1 {
+        left: 15%;
+        top: -14%;
+    }
+    #main-network-second {
+        left: -1.4rem;
+        top: 1rem;
+    }
+    .navcoin-2 {
+        top: 35%;
+        left: 72%;
+    }
+}
+
+
+@media (max-width:670px)
+{
+    .wallet-cash {
+        margin: 4rem 0 5rem 0;
+    }
+    .simple-sol h4 {
+        font-size: 1.3rem;
+        line-height: 30px;
+    }
+    .simple-sol p {
+        font-size: .72rem;
+        line-height: 17px;
+        padding: .7rem 0;
+    }
+    .simple-sol button {
+        width: 7rem;
+        height: 2.3rem;
+        font-size: .88rem;
+        margin-top: 13px;
+    }
+    .navcoin-1 {
+        left: 17%;
+        top: -14%;
+    }
+    #main-network-second {
+        left: -1.2rem;
+        top: .5rem;
+        rotate: -1deg;
+    }
+    .navcoin-2 {
+        top: 30%;
+        left: 75%;
+    }
+}
+
+@media(max-width:580px)
+{
+    .wallet-cash {
+        margin: 4rem 0 3rem 0;
+    }
+    .simple-sol {
+        padding: 0 0 0 1rem;
+    }
+    .simple-sol h4 {
+        font-size: 1.1rem;
+        line-height: 20px;
+    }
+        .simple-sol p {
+            font-size: .58rem;
+            line-height: 14px;
+            padding: .7rem 0;
+        }
+        .simple-sol button {
+            width: 5rem;
+            height: 1.9rem;
+            font-size: .78rem;
+        }
+        .navcoin-1 {
+            left: 20%;
+            top: -20%;
+        }
+        #main-network-second {
+            left: -0.2rem;
+            top: -0.5rem;
+        }
+        .navcoin-2 {
+            top: 23%;
+            left: 78%;
+        }
+}
+
+
+@media (max-width:480px)
+{
+    .wallet-cash
+    {
+      flex-direction: column-reverse;
+    }
+    .main-network
+    {
+        width: 80%;
+        margin: 0 auto;
+    }
+    #main-network-second {
+        left: -2.2rem;
+        top: -0.5rem;
+    }
+    .navcoin-1 {
+        left: 14%;
+        top: -14%;
+    }
+    .navcoin-2 {
+        top: 26%;
+        left: 73%;
+    }
+
+    .simple-sol
+    {
+        width: 100%;
+        text-align: center;
+        padding: 0rem;
+    }
+    .simple-sol h4 {
+        font-size: 2rem;
+        line-height: 34px;
+    }
+    .simple-sol p {
+        font-size: 1rem;
+        line-height: 24px;
+    }
+    .simple-sol button {
+        width: 8rem;
+        height: 2.9rem;
+        font-size: 1rem;
+    }
+}
+
+
+@media(max-width:420px)
+{
+    #main-network-second {
+        left: -1.6rem;
+        top: -0.5rem;
+    }
+    
+}
+
+
+@media(max-width:380px)
+{
+    #main-network-second {
+        left: -1rem;
+        top: -0.5rem;
+    }
+    .navcoin-1 {
+        left: 19%;
+        top: -15%;
+    }
+    .navcoin-2 {
+        top: 25%;
+        left: 75%;
+    }
+
+}
+
+
+
+@media(max-width:340px)
+{
+    #main-network-second {
+        left: -.6rem;
+        top: -0.5rem;
+    }
+    .navcoin-1 {
+        left: 21%;
+        top: -18%;
+    }
+
+}
